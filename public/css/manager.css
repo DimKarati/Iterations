@@ -1,0 +1,427 @@
+body {
+    background-color: black;
+    font-family: monospace;
+    color: white;
+}
+
+header {
+    text-align: center;
+    font-size: xx-large;
+    width: 100%;
+    background-color: rgb(28, 28, 28);
+    color: white;
+    text-align: center;
+    border-radius: 0.4em;
+    margin-bottom: 0.08em;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.left,
+.right {
+    display: flex;
+    flex-direction: column;
+}
+
+.left {
+    flex: 1;
+}
+
+.right {
+    flex: 3;
+}
+
+
+.box2 {
+    height: 160px;
+    margin: 2px;
+    border-radius: .75em;
+    background-color: rgb(28, 28, 28);
+    text-align: center;
+}
+
+.login-box h2 {
+    color: #f2f2f2;
+}
+
+
+.welcome-message {
+    font-family: monospace;
+    align-items: center;
+    font-size: 22px;
+    margin-top: 3em;
+
+
+}
+
+#logoutButton {
+    width: 100%;
+    background: #555;
+    border: none;
+    padding: .45em;
+    margin-top: 1.75em;
+    cursor: pointer;
+    font-size: 18px;
+    color: #fff;
+    border-radius: .55em;
+    transition: background 0.3s ease;
+    font-family: monospace;
+}
+
+#logoutButton:hover {
+    background-color: red;
+}
+
+.textbox {
+    position: relative;
+    margin: 5px 5px 10px;
+}
+
+.textbox input {
+    width: 60%;
+    padding: 0.1em;
+    background: #f2f2f2;
+    border: 0;
+    outline: none;
+    color: #333;
+    font-size: 18px;
+    border-radius: 5px;
+    font-family: monospace;
+}
+
+.btn {
+    width: 100%;
+    background: #555;
+    border: none;
+    padding: .45em;
+    cursor: pointer;
+    font-size: 18px;
+    color: #fff;
+    border-radius: .55em;
+    transition: background 0.3s ease;
+    font-family: monospace;
+}
+
+.btn:hover {
+    background: #04b74c;
+}
+
+.box1 {
+    height: 160px;
+    margin: 2px;
+    border-radius: .75em;
+    background-color: rgb(28, 28, 28);
+}
+
+#station_logo {
+    height: 100%;
+    width: 100%;
+    border-radius: .75em;
+}
+
+.box3 {
+    flex-grow: 1;
+    margin: 2px;
+    border-radius: .75em;
+    background-color: rgb(28, 28, 28);
+}
+
+#search {
+    margin-top: 4em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 2.5em;
+}
+
+.custom-link {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    display: block;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+#menuOptions {
+    margin-top: 1.5em;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    flex-wrap: nowrap;
+}
+
+#socialmedia {
+    margin-left: auto;
+}
+
+#date {
+    margin-top: 6em;
+    margin-left: 3em;
+}
+
+.box4 {
+    position: relative;
+    flex-grow: 1;
+    margin: 2px;
+    border-radius: .75em;
+    background-color: rgb(28, 28, 28);
+}
+
+.song-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    gap: 5px;
+    margin-left: 80px;
+    font-size: 15px;
+}
+
+.song-window {
+    width: 30%;
+    border: 1px solid #ccc;
+    border-radius: .75em;
+    padding: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.song-window h2 {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.song-window ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+
+.song-title {
+    font-weight: bold;
+}
+
+.song-artist {
+    color: grey;
+}
+
+.report-button {
+    display: block;
+    width: 15%;
+    margin-left: 17.5em;
+    padding: 10px 15px;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    background-color: #777;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px black;
+    transition: background-color 0.3s ease;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.report-button:hover {
+    background-color: #0056b3;
+}
+
+
+.username-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+#Recipient {
+    margin-top: 4em;
+    margin-left: 3.5em;
+
+}
+
+#DjButton {
+    display: block;
+    width: 12%;
+    margin-left: 4.2em;
+    padding: 5px 15px;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    background-color: #777;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px black;
+    transition: background-color 0.3s ease;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+#DjButton:hover {
+    background-color: #728006;
+}
+
+#ProducerButton {
+    display: block;
+    width: 12%;
+    margin-left: 4.2em;
+    margin-top: 0.5em;
+    padding: 5px 15px;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    background-color: #777;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px black;
+    transition: background-color 0.3s ease;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+#ProducerButton:hover {
+    background-color: #06728a;
+}
+
+#sendButton {
+    display: block;
+    width: 15%;
+    margin-left: 4.2em;
+    padding: 10px 15px;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    background-color: #777;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px black;
+    transition: background-color 0.3s ease;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+#sendButton:hover {
+    background-color: #0056b3;
+}
+
+textarea {
+    width: 60%;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 5em;
+}
+
+.report-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    margin: 6em auto 0em;
+    font-size: 15px;
+    border-radius: .75em;
+}
+
+.report {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.report-title {
+    font-weight: bold;
+}
+
+.report-summary {
+    margin: 10px 0;
+}
+
+.report-date {
+    font-size: 0.8em;
+    color: grey;
+}
+
+#downloadReport {
+    display: block;
+    width: 61%;
+    margin: 0.5em auto;
+    padding: 10px 15px;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    background-color: #777;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px black;
+    transition: background-color 0.3s ease;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+#downloadReport:hover {
+    background-color: #0056b3;
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    width: 70%;
+    margin: 5% auto;
+    padding: 20px;
+    background: #fff;
+    font-family: monospace;
+    color: black;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+#submit-report {
+    margin-top: 1em;
+    border-radius: .4em;
+    border: none;
+    padding: .4em;
+    background-color: #777;
+    color: white;
+}
+
+#submit-report:hover {
+    background-color: #0056b3;
+}
+
+#title {
+    margin-left: 5em;
+}
+
+#createdOn {
+    margin-left: 5em;
+}
+
+.selected {
+    background-color: #4CAF50 !important;
+}
+
+#DjButton.selected,
+#ProducerButton.selected {
+    background-color: #4CAF50 !important;
+}
